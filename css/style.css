@@ -1581,7 +1581,7 @@ h3 {
 
 /* line 64, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .case_study_area .single_case .case_heading {
-  padding: 25px 29px;
+  padding: 25px 9px;
 }
 
 /* line 66, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
@@ -3186,8 +3186,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 145px;
-  padding-bottom: 129px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background: #fff;
 }
 
@@ -3310,7 +3310,7 @@ h3 {
 
 /* line 90, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #919191;
+  color: #5db2ff;
   font-weight: 400;
 }
 
