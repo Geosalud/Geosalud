@@ -9,37 +9,8 @@ Highcharts.chart('estados', {
               credits: {enabled: true, text: 'Highcharts' },
     xAxis: [{
         categories: [
-'CDMX',
-'Jalisco',
-'Sinaloa',
-'Tabasco',
-'Baja California',
-'Hidalgo',
-'Morelos',
-'Coahuila',
-'San Luis Potosí',
-'Baja California Sur',
-'Estado de México',
-'Puebla',
-'Quintana Roo',
-'Querétaro',
-'Veracruz',
-'Guerrero',
-'Oaxaca',
-'Durango',
-'Nayarit',
-'Zacatecas',
-'Nuevo León',
-'Yucatán',
-'Guanajuato',
-'Aguascalientes',
-'Sonora',
-'Chiapas',
-'Tamaulipas',
-'Chihuahua',
-'Tlaxcala',
-'Campeche',
-'Colima'
+'CDMX','MÉXICO','BAJA CALIFORNIA','PUEBLA','SINALOA','QUINTANA ROO','COAHUILA','JALISCO','TABASCO','BAJA CALIFORNIA SUR','NUEVO LEÓN','YUCATÁN','GUANAJUATO','VERACRUZ','GUERRERO','SONORA','CHIHUAHUA','MICHOACÁN','QUERETARO','HIDALGO','AGUASCALIENTES','SAN LUIS POTOSÍ','TAMAULIPAS','MORELOS','TLAXCALA','OAXACA','CHIAPAS','CAMPECHE','NAYARIT','DURANGO','ZACATECAS','COLIMA'
+
 
         ],
         crosshair: true
@@ -109,16 +80,17 @@ Highcharts.chart('estados', {
         type: 'column',
         color:'#5db2ff',
         yAxis: 1,
-        data: [327,104,42,62,40,26,9,62,33,19,171,100,56,32,29,24,22,22,8,8,7,84,53,50,47,21,15,13,11,5,5,3],
+        data: [1437,558,368,269,245,239,176,159,156,153,132,114,88,82,77,72,67,62,61,58,55,55,53,49,49,44,43,29,25,16,16,7],
         tooltip: {
             valueSuffix: ''
         }
 
     }, {
-        name: 'Negativos',
+        name: 'Hombres',
         type: 'spline',
+        color:'#d67544',
         yAxis: 2,
-        data: [863,725,187,212,284,183,100,281,305,137,554,319,172,199,207,155,91,128,72,44,128,747,178,676,323,145,92,87,56,119,21,32],
+        data: [875,321,203,143,141,162,100,98,75,84,88,59,41,45,47,34,46,35,33,37,26,29,27,27,26,22,33,23,10,9,11,4],
         marker: {
             enabled: false
         },
@@ -128,9 +100,10 @@ Highcharts.chart('estados', {
         }
 
     }, {
-        name: 'Sospechosos',
+        name: 'Mujeres',
         type: 'spline',
-        data: [757,638,181,277,213,65,31,179,104,62,406,122,97,67,353,71,102,46,28,27,34,80,72,200,53,148,45,70,24,76,13,12],
+        color:'#223a6f', 
+        data: [562,237,165,126,104,77,76,61,81,69,44,55,47,37,30,38,21,27,28,21,29,26,26,22,23,22,10,6,15,7,5,3],
         tooltip: {
             valueSuffix: ''
         }
