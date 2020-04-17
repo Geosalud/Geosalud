@@ -7318,7 +7318,27 @@ h6 {
 /* line 166, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+a.tooltip2 { /* Estilos del texto que tiene el tooltip */
+position: right;
+z-index: 24;
+cursor: pointer;
+text-decoration: underline;
+}
+a.tooltip2:hover {z-index: 25; text-decoration: none;}
+a.tooltip2 span {display: none}
+a.tooltip2:hover span { /* Estilos de la descripción */
+display: block;
+position: absolute;
+top: 2em; left: 6em;
+width: 12em;
+border: 2px;
+background:#f2efe991;
+color: #919191;
+text-align: center;
+}
