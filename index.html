@@ -202,16 +202,35 @@ height: 100%;
             <br><p style="text-align: right; font-size:12px; line-height:14px; color:#ffffff"><strong>Fuente:</strong> Elaborado sobre la base del Gobierno de México. Salud, Secretaría de Salud. Dirección General de Epidemiología (2020). Corte 17 de abril 2020</p>
         </div>
     </div> <br> <br>
-    <div class="section_title mb-40 text-center">
-    <h3>Casos de Covid-19 por estado 17-04-2020</h3>
-    <h3> Mujeres: 2891   Hombres: 3984 </h3>
-    </div>
-    <div id="estados" style="min-width: 100px; max-width: 1200px; height: 400px;   font-size: 8pt; margin: 0 auto"></div>
-    <div class="container"> 
-    <br><p style="text-align: right; font-size:12px; line-height:14px;  "><strong>Fuente:</strong> Elaborado sobre la base del Gobierno de México. Salud, Secretaría de Salud. Dirección General de Epidemiología (2020). Corte 17 de abril 2020</p>
-    </div><br>
-    <!-- /counter_area  -->
-       <!-- cartografía covid 19  -->
+<!-- /counter_area  -->
+
+<!-- estadísticas nacionales  -->
+<div class="case_study_area case_page">
+    <div class="container">
+       <div class="section_title mb-40 text-center">
+       <h3>Casos de Covid-19 por estado 17-04-2020</h3>
+       </div>
+       <div class="row">
+             <div class="col-xl-8">
+                    <div class="section_title mb-40 text-center">
+                    <p> Mujeres: 2891   Hombres: 3984 </p>
+                    </div>
+                    <div id="estados" style="min-width: 100px; max-width: 1200px; height: 500px;   font-size: 8pt; margin: 0 auto"></div>
+             </div> 
+             <div class="col-xl-4">
+                    <div class="section_title mb-40 text-center">
+                    <p>Casos por fecha de inicio de síntomas</p>
+                    </div>
+                    <div id="sintomas" style="min-width: 100px; max-width: 1200px; height: 500px;   font-size: 8pt; margin: 0 auto"></div>
+             </div>
+
+       </div>
+       <br><p style="text-align: right; font-size:12px; line-height:14px;  "><strong>Fuente:</strong> Elaborado sobre la base del Gobierno de México. Salud, Secretaría de Salud. Dirección General de Epidemiología (2020). Corte 17 de abril 2020</p>
+        </div>
+</div>
+<!-- /estadísticas nacionales  -->
+
+<!-- cartografía covid 19  -->
     <div class="case_study_area case_page">
         <div class="container">
                     <div class="row">
@@ -396,6 +415,7 @@ Desarrollo, <script>document.write(new Date().getFullYear());</script>: Universi
 
        <script  src="js/estados.js"></script>
        <script  src="js/problemas.js"></script>
+       <script  src="js/sintomas.js"></script>
 </body>
 
 </html>
