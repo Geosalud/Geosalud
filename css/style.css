@@ -6848,9 +6848,10 @@ h6 {
 /* line 1314, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
 .comments-area {
   background: transparent;
-  border-top: 1px solid #eee;
-  padding: 45px 0;
-  margin-top: 50px;
+  border-top: 1px solid #afb9b0;
+  border-bottom: 1px solid #afb9b0;
+  padding: 40px 0;
+  margin-top: 0px;
 }
 
 @media (max-width: 414px) {
@@ -6909,8 +6910,8 @@ h6 {
 
 /* line 1372, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
 .comments-area .thumb img {
-  width: 70px;
-  border-radius: 50%;
+  width: 100px;
+  border-radius: 0%;
 }
 
 /* line 1378, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
@@ -6925,6 +6926,7 @@ h6 {
 .comments-area .comment {
   margin-bottom: 10px;
   color: #777777;
+  text-align: justify;
   font-size: 15px;
 }
 
