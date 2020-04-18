@@ -9,9 +9,11 @@ Highcharts.chart('estados', {
               credits: {enabled: true, text: 'Highcharts' },
     xAxis: [{
         categories: [
-'CDMX','MÉXICO','BAJA CALIFORNIA','SINALOA','PUEBLA','QUINTANA ROO','TABASCO','COAHUILA','JALISCO','BAJA CALIFORNIA SUR',
-'NUEVO LEÓN','YUCATÁN','VERACRUZ','CHIHUAHUA','GUERRERO','GUANAJUATO','SONORA','MICHOACÁN','TAMAULIPAS','QUERETARO','AGUASCALIENTES',
-'HIDALGO','TLAXCALA','MORELOS','SAN LUIS POTOSÍ','CHIAPAS','OAXACA','CAMPECHE','NAYARIT','ZACATECAS','DURANGO','COLIMA'
+'CDMX','MÉXICO','BAJA CALIFORNIA','SINALOA','PUEBLA','QUINTANA ROO','TABASCO',
+'COAHUILA','JALISCO','BAJA CALIFORNIA SUR','NUEVO LEÓN','YUCATÁN','VERACRUZ','CHIHUAHUA',
+'GUANAJUATO','GUERRERO','MICHOACÁN','SONORA','TAMAULIPAS','QUERETARO','AGUASCALIENTES','MORELOS',
+'HIDALGO','TLAXCALA','CHIAPAS','SAN LUIS POTOSÍ','OAXACA','CAMPECHE','NAYARIT','ZACATECAS','DURANGO','COLIMA'
+
 
 
 
@@ -84,7 +86,7 @@ Highcharts.chart('estados', {
         type: 'column',
         color:'#5db2ff',
         yAxis: 1,
-        data: [1828,695,505,327,305,276,233,214,178,166,159,131,112,108,100,96,89,84,78,76,71,67,62,58,56,54,53,45,29,18,17,7],
+        data: [2080,754,536,374,314,280,250,217,190,169,159,140,121,115,113,110,99,97,91,78,77,73,70,67,58,58,56,47,31,23,19,9],
         tooltip: {
             valueSuffix: ''
         }
@@ -94,7 +96,7 @@ Highcharts.chart('estados', {
         type: 'spline',
         color:'#d67544',
         yAxis: 2,
-        data: [1092,405,269,186,163,181,124,119,107,92,107,72,63,66,62,43,46,49,41,42,36,41,33,32,29,40,25,38,13,12,9,4],
+        data: [1240,444,287,209,168,185,137,121,109,94,108,79,69,71,56,69,60,49,46,42,38,44,43,37,41,30,26,40,14,14,9,5],
         marker: {
             enabled: false
         },
@@ -107,7 +109,7 @@ Highcharts.chart('estados', {
         name: 'Mujeres',
         type: 'spline',
         color:'#223a6f', 
-        data: [736,290,236,141,142,95,109,95,71,74,52,59,49,42,38,53,43,35,37,34,35,26,29,26,27,14,28,7,16,6,8,3],
+        data: [840,310,249,165,146,95,113,96,81,75,51,61,52,44,57,41,39,48,45,36,39,29,27,30,17,28,30,7,17,9,10,4],
         tooltip: {
             valueSuffix: ''
         }
