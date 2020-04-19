@@ -73,7 +73,7 @@ Highcharts.chart('estados', {
     legend: {
         layout: 'vertical',
         align: 'left',
-        x: 950,
+        x: 50,
         verticalAlign: 'top',
         y: 40,
         floating: true,
