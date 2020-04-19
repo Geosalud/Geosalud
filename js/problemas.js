@@ -3,7 +3,7 @@ Highcharts.chart('problemas', {
         type: 'bar'
     },
     title: {
-        text: 'Percepción de problemas relacionados con Covid 19. Porcentaje de respuestas'
+        text: 'Tipo de problema que la población percibe ante el Covid-19.'
     },
 
                   credits: {enabled: true, text: 'Highcharts' },
