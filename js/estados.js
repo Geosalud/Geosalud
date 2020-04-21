@@ -9,13 +9,11 @@ Highcharts.chart('estados', {
               credits: {enabled: true, text: 'Highcharts' },
     xAxis: [{
         categories: [
-'CDMX','MÉXICO','BAJA CALIFORNIA','SINALOA','PUEBLA','QUINTANA ROO','TABASCO','COAHUILA','JALISCO','BAJA CALIFORNIA SUR',
-'NUEVO LEÓN','YUCATÁN','CHIHUAHUA','VERACRUZ','TAMAULIPAS','GUANAJUATO','GUERRERO','SONORA','MICHOACÁN','QUERETARO',
-'AGUASCALIENTES','MORELOS','HIDALGO','TLAXCALA','CHIAPAS','OAXACA','SAN LUIS POTOSÍ','CAMPECHE','NAYARIT','ZACATECAS','DURANGO','COLIMA'
 
-
-
-
+        'CDMX','Estado de México','Baja California','Sinaloa','Tabasco','Puebla','Quintana Roo','Coahuila',
+        'Jalisco','Baja California Sur   ','Nuevo León','Yucatán','Veracruz','Chihuahua','Guanajuato','Tamaulipas',
+        'Michoacán','Guerrero','Sonora','Hidalgo','Morelos','Querétaro','Aguascalientes','Tlaxcala','Oaxaca','Chiapas',
+        'San Luis Potosí','Campeche','Nayarit','Zacatecas','Durango','Colima'
 
 
         ],
@@ -86,32 +84,16 @@ Highcharts.chart('estados', {
         type: 'column',
         color:'#5db2ff',
         yAxis: 1,
-        data: [2299,786,610,413,330,315,278,232,196,173,172,172,131,124,117,116,110,108,107,79,77,77,75,72,62,62,59,56,33,27,19,10],
+        data: [2710,901,741,486,397,360,360,254,216,205,202,191,156,152,150,134,127,126,117,92,85,85,80,78,69,68,66,63,37,31,22,11],
         tooltip: {
             valueSuffix: ''
         }
 
-    }, {
-        name: 'Hombres',
-        type: 'spline',
-        color:'#d67544',
-        yAxis: 2,
-        data: [1379,465,324,230,174,207,156,128,114,95,117,93,82,69,61,57,69,55,63,42,38,46,47,39,43,29,30,47,15,15,9,5],
-        marker: {
-            enabled: false
-        },
-        dashStyle: 'shortdot',
-        tooltip: {
-            valueSuffix: ''
-        }
-
-    }, {
-        name: 'Mujeres',
+    },  {
+        name: 'Defunciones',
         type: 'spline',
         color:'#223a6f', 
-        data: [920,321,286,183,156,108,122,104,82,78,55,79,49,55,56,59,41,53,44,37,39,31,28,33,19,33,29,9,18,12,10,5
-
-],
+        data: [166,79,74,45,43,47,34,19,14,7,5,10,13,31,9,5,17,14,13,14,12,6,2,4,6,3,4,3,5,2,4,2],
         tooltip: {
             valueSuffix: ''
         }
