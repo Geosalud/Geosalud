@@ -1527,7 +1527,7 @@ h3 {
 
 /* line 36, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .case_study_area.case_page {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
