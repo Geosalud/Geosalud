@@ -1,49 +1,38 @@
 Highcharts.chart('sintomas', {
     chart: {
-        type: 'bar'
+        type: 'area',
+        inverted: true
     },
     title: {
         text: ''
     },
-    xAxis: {
-        categories:
-        ['17/02/2020','19/02/2020','21/02/2020','22/02/2020','23/02/2020','25/02/2020','26/02/2020','27/02/2020',
-        '28/02/2020','29/02/2020','01/03/2020','02/03/2020','03/03/2020','04/03/2020','05/03/2020','06/03/2020',
-        '07/03/2020','08/03/2020','09/03/2020','10/03/2020','11/03/2020','12/03/2020','13/03/2020','14/03/2020',
-        '15/03/2020','16/03/2020','17/03/2020','18/03/2020','19/03/2020','20/03/2020','21/03/2020','22/03/2020',
-        '23/03/2020','24/03/2020','25/03/2020','26/03/2020','27/03/2020','28/03/2020','29/03/2020','30/03/2020',
-        '31/03/2020','01/04/2020','02/04/2020','03/04/2020','04/04/2020','05/04/2020','06/04/2020','07/04/2020','08/04/2020',
-        '09/04/2020','10/04/2020','11/04/2020','12/04/2020','13/04/2020','14/04/2020','15/04/2020','16/04/2020','17/04/2020'
-]
-    },
-    yAxis: {
-        min: 0,
-        title: {
-            text: ' '
+    accessibility: {
+        keyboardNavigation: {
+            seriesNavigation: {
+                mode: 'serialize'
+            }
         }
     },
-    legend: {
-        reversed: true
+ 
+    xAxis: {
+        categories: [
+'Tijuana','Iztapalapa','Culiacan','Mexicali','Gustavo A. Madero','Benito Juarez','Centro','Puebla','Tlalpan','Alvaro Obregon','Cuauhtemoc','Miguel Hidalgo','Nezahualcoyotl','Ecatepec de Morelos','Coyoacan','Merida','Los Cabos','Monclova','Iztacalco','Xochimilco','Azcapotzalco','Benito Juarez','Tlalnepantla de Baz','Venustiano Carranza','Juarez','Naucalpan de Juarez','Cuajimalpa de Morelos','Aguascalientes','La Magdalena Contreras','Chimalhuacan','La Paz','Tlahuac','Guadalajara','Solidaridad','Queretaro','Veracruz','Huixquilucan','Monterrey','Milpa Alta','Acapulco de Juarez','Atizapan de Zaragoza','Nicolas Romero','Zapopan','Cuautitlan Izcalli','Leon','Tecamac','San Luis Potosi','San Luis Rio Colorado','Ixtapaluca','Toluca'
+        ]
+    },
+    yAxis: {
+        title: {
+            text: 'Number of units'
+        },
+        allowDecimals: false,
+        min: 0
     },
     plotOptions: {
-        series: {
-            stacking: 'normal'
+        area: {
+            fillOpacity: 0.5
         }
     },
     series: [{
-        name: 'Total',
-        color:'#5db2ff',
-        data: [2,2,1,2,2,2,1,1,2,2,6,7,6,7,7,9,19,21,60,49,48,55,82,90,96,132,102,119,104,169,123,133,200,165,177,221,252,241,227,310,277,350,344,351,329,319,359,293,303,257,344,218,197,159,81,36,21,5
-]
-    }, {
-        name: 'Hombres',
-        color:'#223a6f',
-        data: [2,1,1,2,1,null,1,null,1,2,2,4,3,6,4,7,11,13,35,25,30,32,52,64,55,80,62,64,64,101,76,80,111,99,96,123,154,132,128,180,161,201,205,190,192,180,207,179,184,146,204,131,111,71,42,17,14,4
-]
-    }, {
-        name: 'Mujeres',
-        color:'#d67544',
-        data: [null,1,null,null,1,2,null,1,1,null,4,3,3,1,3,2,8,8,25,24,18,23,30,26,41,52,40,55,40,68,47,53,89,66,81,98,98,109,99,130,116,149,139,161,137,139,152,114,119,111,140,87,86,88,39,19,7,1
-]
+        name: 'Casos Covid-19',
+        data: [569,441,417,360,338,320,312,239,237,218,199,199,195,185,176,170,159,147,143,138,136,136,125,122,120,119,110,86,80,78,76,76,74,72,71,69,68,67,66,65,65,61,60,59,54,54,53,51,50,50]
     }]
 });
