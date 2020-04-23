@@ -21,7 +21,7 @@ Highcharts.chart('sintomas', {
     },
     yAxis: {
         title: {
-            text: 'Number of units'
+            text: 'Casos de Covid-19'
         },
         allowDecimals: false,
         min: 0
