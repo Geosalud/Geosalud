@@ -16,7 +16,10 @@ Highcharts.chart('sintomas', {
  
     xAxis: {
         categories: [
-'Tijuana','Iztapalapa','Culiacan','Mexicali','Gustavo A. Madero','Benito Juarez','Centro','Puebla','Tlalpan','Alvaro Obregon','Cuauhtemoc','Miguel Hidalgo','Nezahualcoyotl','Ecatepec de Morelos','Coyoacan','Merida','Los Cabos','Monclova','Iztacalco','Xochimilco','Azcapotzalco','Benito Juarez','Tlalnepantla de Baz','Venustiano Carranza','Juarez','Naucalpan de Juarez','Cuajimalpa de Morelos','Aguascalientes','La Magdalena Contreras','Chimalhuacan','La Paz','Tlahuac','Guadalajara','Solidaridad','Queretaro','Veracruz','Huixquilucan','Monterrey','Milpa Alta','Acapulco de Juarez','Atizapan de Zaragoza','Nicolas Romero','Zapopan','Cuautitlan Izcalli','Leon','Tecamac','San Luis Potosi','San Luis Rio Colorado','Ixtapaluca','Toluca'
+
+'Tijuana','Iztapalapa','Culiacan','Gustavo A. Madero','Centro','Mexicali','Benito Juarez','Tlalpan','Puebla','Alvaro Obregon','Cuauhtemoc','Nezahualcoyotl','Miguel Hidalgo','Ecatepec de Morelos','Coyoacan','Merida','Iztacalco','Los Cabos','Xochimilco','Monclova','Benito Juarez','Venustiano Carranza','Azcapotzalco','Tlalnepantla de Baz','Juarez','Naucalpan de Juarez','Cuajimalpa de Morelos','Aguascalientes','Chimalhuacan','Tlahuac','Veracruz','La Magdalena Contreras','Monterrey','Guadalajara','La Paz','Solidaridad','Milpa Alta','Acapulco de Juarez','Queretaro','Atizapan de Zaragoza','Huixquilucan','Cuautitlan Izcalli','Nicolas Romero','Ahome','Lazaro Cardenas','Zapopan','Tecamac','Tultitlan','Leon','Ixtapaluca','San Luis Potosi','San Luis Rio Colorado','Chalco','Toluca'
+
+
         ]
     },
     yAxis: {
@@ -33,6 +36,9 @@ Highcharts.chart('sintomas', {
     },
     series: [{
         name: 'Casos Covid-19',
-        data: [569,441,417,360,338,320,312,239,237,218,199,199,195,185,176,170,159,147,143,138,136,136,125,122,120,119,110,86,80,78,76,76,74,72,71,69,68,67,66,65,65,61,60,59,54,54,53,51,50,50]
+        data: [640,529,438,386,372,364,350,256,254,238,215,215,210,200,195,187,172,159,159,154,150,149,140,138,132,126,112,91,88,86,85,84,82,81,77,77,76,74,74,71,69,63,62,62,61,59,58,57,56,56,56,56,54,53
+
+
+        ]
     }]
 });
