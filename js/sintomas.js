@@ -4,7 +4,7 @@ Highcharts.chart('sintomas', {
         inverted: true
     },
     title: {
-        text: ''
+        text: ' '
     },
     accessibility: {
         keyboardNavigation: {
@@ -13,18 +13,17 @@ Highcharts.chart('sintomas', {
             }
         }
     },
- 
+
     xAxis: {
         categories: [
 
-'Tijuana','Iztapalapa','Culiacan','Gustavo A. Madero','Centro','Mexicali','Benito Juarez','Tlalpan','Puebla','Alvaro Obregon','Cuauhtemoc','Nezahualcoyotl','Miguel Hidalgo','Ecatepec de Morelos','Coyoacan','Merida','Iztacalco','Los Cabos','Xochimilco','Monclova','Benito Juarez','Venustiano Carranza','Azcapotzalco','Tlalnepantla de Baz','Juarez','Naucalpan de Juarez','Cuajimalpa de Morelos','Aguascalientes','Chimalhuacan','Tlahuac','Veracruz','La Magdalena Contreras','Monterrey','Guadalajara','La Paz','Solidaridad','Milpa Alta','Acapulco de Juarez','Queretaro','Atizapan de Zaragoza','Huixquilucan','Cuautitlan Izcalli','Nicolas Romero','Ahome','Lazaro Cardenas','Zapopan','Tecamac','Tultitlan','Leon','Ixtapaluca','San Luis Potosi','San Luis Rio Colorado','Chalco','Toluca'
-
+'Tijuana','Iztapalapa','Culiacan','Gustavo A. Madero','Mexicali','Centro','Benito Juarez','Tlalpan','Puebla','Nezahualcoyotl','Alvaro Obregon','Coyoacan','Cuauhtemoc','Miguel Hidalgo','Ecatepec de Morelos','Merida','Iztacalco','Xochimilco','Venustiano Carranza','Monclova','Los Cabos','Benito Juarez','Azcapotzalco','Tlalnepantla de Baz','Juarez','Naucalpan de Juarez','Aguascalientes','Cuajimalpa de Morelos','Tlahuac','Chimalhuacan','Veracruz','La Magdalena Contreras','Solidaridad','Guadalajara','Monterrey','Ahome','Milpa Alta','Queretaro','La Paz','Acapulco de Juarez','Atizapan de Zaragoza','Chalco','Huixquilucan','Ixtapaluca','Nicolas Romero','Cuautitlan Izcalli','Lazaro Cardenas','Tecamac','Leon','Tultitlan','Zapopan','San Luis Rio Colorado','Toluca','Cuernavaca','San Luis Potosi','Matamoros','Valle de Chalco Solidaridad'
 
         ]
     },
     yAxis: {
         title: {
-            text: 'Casos de Covid-19'
+            text: ''
         },
         allowDecimals: false,
         min: 0
@@ -35,8 +34,13 @@ Highcharts.chart('sintomas', {
         }
     },
     series: [{
-        name: 'Casos Covid-19',
-        data: [640,529,438,386,372,364,350,256,254,238,215,215,210,200,195,187,172,159,159,154,150,149,140,138,132,126,112,91,88,86,85,84,82,81,77,77,76,74,74,71,69,63,62,62,61,59,58,57,56,56,56,56,54,53
+        name: 'Positivos Covid-19',
+     
+        data: [
+
+
+        675,609,480,432,399,398,385,295,272,259,257,227,225,225,223,197,190,181,177,165,163,163,156,154,142,139,126,116,111,108,101,87,86,83,83,83,81,80,78,77,75,74,73,71,69,69,67,64,62,62,61,59,58,58,56,52,51
+
 
 
         ]
