@@ -17,7 +17,7 @@ Highcharts.chart('sintomas', {
     xAxis: {
         categories: [
 
-'Tijuana','Iztapalapa','Culiacan','Gustavo A. Madero','Mexicali','Centro','Benito Juarez','Tlalpan','Puebla','Nezahualcoyotl','Alvaro Obregon','Coyoacan','Cuauhtemoc','Miguel Hidalgo','Ecatepec de Morelos','Merida','Iztacalco','Xochimilco','Venustiano Carranza','Monclova','Los Cabos','Benito Juarez','Azcapotzalco','Tlalnepantla de Baz','Juarez','Naucalpan de Juarez','Aguascalientes','Cuajimalpa de Morelos','Tlahuac','Chimalhuacan','Veracruz','La Magdalena Contreras','Solidaridad','Guadalajara','Monterrey','Ahome','Milpa Alta','Queretaro','La Paz','Acapulco de Juarez','Atizapan de Zaragoza','Chalco','Huixquilucan','Ixtapaluca','Nicolas Romero','Cuautitlan Izcalli','Lazaro Cardenas','Tecamac','Leon','Tultitlan','Zapopan','San Luis Rio Colorado','Toluca','Cuernavaca','San Luis Potosi','Matamoros','Valle de Chalco Solidaridad'
+'Tijuana','Iztapalapa','Culiacan','Gustavo A. Madero','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Puebla','Alvaro Obregon','Coyoacan','Cuauhtemoc','Ecatepec de Morelos','Miguel Hidalgo','Merida','Iztacalco','Xochimilco','Venustiano Carranza','Benito Juarez','Tlalnepantla de Baz','Monclova','Azcapotzalco','Los Cabos','Juarez','Naucalpan de Juarez','Chimalhuacan','Aguascalientes','Cuajimalpa de Morelos','Tlahuac','Veracruz','Milpa Alta','Solidaridad','La Paz','Atizapan de Zaragoza','La Magdalena Contreras','Monterrey','Guadalajara','Chalco','Queretaro','Ahome','Acapulco de Juarez','Cuautitlan Izcalli','Huixquilucan','Ixtapaluca','Nicolas Romero','Lazaro Cardenas','Tecamac','Tultitlan','Cuernavaca','Leon','Zapopan','Toluca','Valle de Chalco Solidaridad','San Luis Potosi','San Luis Rio Colorado','Chihuahua','Matamoros','Nacajuca','Victoria'
 
         ]
     },
@@ -39,7 +39,7 @@ Highcharts.chart('sintomas', {
         data: [
 
 
-        675,609,480,432,399,398,385,295,272,259,257,227,225,225,223,197,190,181,177,165,163,163,156,154,142,139,126,116,111,108,101,87,86,83,83,83,81,80,78,77,75,74,73,71,69,69,67,64,62,62,61,59,58,58,56,52,51
+706,646,487,467,425,406,403,306,293,287,275,243,242,241,237,235,200,190,190,171,171,169,169,164,160,153,133,127,124,115,114,100,96,94,92,89,86,84,84,84,84,80,80,77,77,76,74,71,67,67,63,62,59,58,58,56,55,53,50,50
 
 
 
