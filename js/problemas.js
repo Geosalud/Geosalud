@@ -45,6 +45,6 @@ Highcharts.chart('problemas', {
     series: [{
         name: 'Porcentaje de respuestas',
         color:'#5db2ff',
-        data: [24.4,19.3,17.1,10.1,8.5,7.0,6.3,4.3,2.0,1.0]
+        data: [24.16,19.51,17.1,9.75,8.64,7.31,5.98,4.21,2.43,0.88]
     }]
 });
