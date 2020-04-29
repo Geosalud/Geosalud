@@ -9,8 +9,7 @@ Highcharts.chart('estados', {
               credits: {enabled: true, text: 'Highcharts' },
     xAxis: [{
         categories: [
-'CDMX','Estado de México','Baja California','Tabasco','Sinaloa','Quintana Roo','Puebla','Veracruz','Coahuila','Yucatán','Jalisco','Tamaulipas','Baja California Sur  ','Nuevo León','Chihuahua','Guanajuato','Guerrero','Michoacán','Morelos','Hidalgo','Sonora','Aguascalientes','Tlaxcala','Chiapas','Querétaro','Oaxaca','San Luis Potosí','Campeche','Zacatecas','Nayarit','Durango','Colima'
-
+'CDMX','Estado de México','Baja California','Tabasco','Sinaloa','Quintana Roo','Puebla','Veracruz','Yucatán','Coahuila','Jalisco','Chihuahua','Nuevo León','Tamaulipas','Baja California Sur  ','Michoacán','Morelos','Guerrero','Hidalgo','Guanajuato','Sonora','Aguascalientes','Tlaxcala','Chiapas','Querétaro','Oaxaca','San Luis Potosí','Campeche','Zacatecas','Nayarit','Durango','Colima'
 
 
         ],
@@ -81,7 +80,13 @@ Highcharts.chart('estados', {
         type: 'column',
         color:'#5db2ff',
         yAxis: 1,
-        data: [4152,2455,1301,819,795,653,552,423,358,353,303,287,285,284,271,216,215,213,194,190,182,161,139,132,121,117,83,76,66,64,45,24
+        data: [
+
+
+   4474,2722,1391,890,803,698,583,465,378,368,316,314,299,295,292,250,244,239,226,221,190,167,159,141,123,121,85,81,68,67,56,26
+
+
+
 ],
         tooltip: {
             valueSuffix: ''
@@ -91,7 +96,8 @@ Highcharts.chart('estados', {
         name: 'Defunciones',
         type: 'spline',
         color:'#223a6f', 
-        data: [270,177,165,100,122,86,69,33,35,23,25,12,13,9,58,21,32,33,28,19,20,2,14,6,9,15,6,13,4,7,6,2],
+        data: [288,186,184,107,130,91,78,40,23,39,25,67,11,15,14,35,29,39,26,21,21,2,16,6,10,17,7,16,7,11,6,2
+],
         tooltip: {
             valueSuffix: ''
         }
