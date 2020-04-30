@@ -10,7 +10,7 @@ Highcharts.chart('estados', {
     xAxis: [{
         categories: [
 
-'CDMX','Estado de México','Baja California','Tabasco','Sinaloa','Quintana Roo','Puebla','Veracruz','Yucatán','Coahuila','Jalisco','Chihuahua','Nuevo León','Tamaulipas','Baja California Sur  ','Michoacán','Morelos','Guerrero','Hidalgo','Guanajuato','Sonora','Aguascalientes','Tlaxcala','Chiapas','Oaxaca','Querétaro','San Luis Potosí','Campeche','Nayarit','Zacatecas','Durango','Colima'
+'CDMX','MEXICO','BAJA CALIFORNIA','TABASCO','SINALOA','QUINTANA ROO','PUEBLA','VERACRUZ','YUCATAN','COAHUILA','JALISCO','CHIHUAHUA','NUEVO LEON','TAMAULIPAS','BAJA CALIFORNIA SUR','MICHOACAN','MORELOS','GUERRERO','HIDALGO','GUANAJUATO','SONORA','AGUASCALIENTES','TLAXCALA','CHIAPAS','OAXACA','QUERETARO','SAN LUIS POTOSI','CAMPECHE','NAYARIT','ZACATECAS','DURANGO','COLIMA'
 
         ],
         crosshair: true
@@ -88,6 +88,7 @@ Highcharts.chart('estados', {
 
 
 
+
 ],
         tooltip: {
             valueSuffix: ''
@@ -100,7 +101,8 @@ Highcharts.chart('estados', {
         data: [
 
 
-        288,186,184,107,130,91,78,40,23,39,25,67,11,15,14,35,29,39,26,21,21,2,16,6,17,10,7,16,11,7,6,2
+        321,213,210,133,117,109,84,69,49,44,41,36,31,27,26,25,22,22,18,18,18,17,16,12,12,10,7,7,7,6,3,2
+
 
 ],
         tooltip: {
