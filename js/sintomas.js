@@ -17,7 +17,7 @@ Highcharts.chart('sintomas', {
     xAxis: {
         categories: [
 
-'Iztapalapa','Tijuana','Gustavo A. Madero','Benito Juarez','Centro','Culiacan','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Puebla','Alvaro Obregon','Coyoacan','Cuauhtemoc','Merida','Iztacalco','Miguel Hidalgo','Xochimilco','Venustiano Carranza','Benito Juarez','Azcapotzalco','Naucalpan de Juarez','Juarez','Tlalnepantla de Baz','Veracruz','Monclova','Los Cabos','Chimalhuacan','Aguascalientes','Tlahuac','La Magdalena Contreras','Acapulco de Juarez','Cuajimalpa de Morelos','Cuernavaca','Chalco','Milpa Alta','Solidaridad','Atizapan de Zaragoza','Ahome','Lazaro Cardenas','Ixtapaluca','La Paz','Cuautitlan Izcalli','Tecamac','Queretaro','Guadalajara','Victoria'
+'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Puebla','Alvaro Obregon','Coyoacan','Cuauhtemoc','Merida','Iztacalco','Miguel Hidalgo','Xochimilco','Venustiano Carranza','Naucalpan de Juarez','Juarez','Benito Juarez','Azcapotzalco','Veracruz','Tlalnepantla de Baz','Monclova','Los Cabos','Chimalhuacan','Aguascalientes','Tlahuac','La Magdalena Contreras','Acapulco de Juarez','Cuernavaca','Chalco','Cuajimalpa de Morelos','Solidaridad','Lazaro Cardenas','Milpa Alta','Ahome','Atizapan de Zaragoza','Cuautitlan Izcalli','Ixtapaluca','La Paz','Toluca','Victoria','Tecamac','Monterrey','Queretaro','Guadalajara','Chihuahua','Nicolas Romero','Tultitlan'
 
 
         ]
@@ -39,7 +39,8 @@ Highcharts.chart('sintomas', {
      
         data: [
 
-911,883,660,597,597,586,557,454,427,374,355,348,328,328,317,294,286,272,267,244,231,231,217,208,208,196,189,175,167,167,153,142,139,134,130,127,127,119,116,110,107,106,105,104,103,102,102
+984,887,719,668,643,620,564,489,465,407,389,375,346,342,342,321,298,290,281,260,257,255,240,236,227,200,199,184,183,169,161,154,150,147,144,139,138,134,132,127,116,115,110,110,110,108,106,106,104,102,101,101
+
 
 
 
