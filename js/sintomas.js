@@ -17,7 +17,7 @@ Highcharts.chart('sintomas', {
     xAxis: {
         categories: [
 
-'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Puebla','Alvaro Obregon','Coyoacan','Cuauhtemoc','Merida','Iztacalco','Miguel Hidalgo','Xochimilco','Venustiano Carranza','Naucalpan de Juarez','Juarez','Benito Juarez','Azcapotzalco','Veracruz','Tlalnepantla de Baz','Monclova','Los Cabos','Chimalhuacan','Aguascalientes','Tlahuac','La Magdalena Contreras','Acapulco de Juarez','Cuernavaca','Chalco','Cuajimalpa de Morelos','Solidaridad','Lazaro Cardenas','Milpa Alta','Ahome','Atizapan de Zaragoza','Cuautitlan Izcalli','Ixtapaluca','La Paz','Toluca','Victoria','Tecamac','Monterrey','Queretaro','Guadalajara','Chihuahua','Nicolas Romero','Tultitlan'
+'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Benito Juarez','Centro','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Alvaro Obregon','Puebla','Merida','Cuauhtemoc','Iztacalco','Coyoacan','Miguel Hidalgo','Xochimilco','Venustiano Carranza','Juarez','Naucalpan de Juarez','Azcapotzalco','Veracruz','Benito Juarez','Tlalnepantla de Baz','Monclova','Aguascalientes','Los Cabos','Tlahuac','Chimalhuacan','Cuernavaca','La Magdalena Contreras','Chalco','Acapulco de Juarez','Cuajimalpa de Morelos','Lazaro Cardenas','Solidaridad','Milpa Alta','Ahome','Atizapan de Zaragoza','Ixtapaluca','Cuautitlan Izcalli','La Paz','Toluca','Chihuahua','Victoria','Tecamac','Monterrey','Queretaro','Guadalajara','Tultitlan','Nicolas Romero','Valle de Chalco Solidaridad','Huixquilucan'
 
 
         ]
@@ -39,8 +39,7 @@ Highcharts.chart('sintomas', {
      
         data: [
 
-984,887,719,668,643,620,564,489,465,407,389,375,346,342,342,321,298,290,281,260,257,255,240,236,227,200,199,184,183,169,161,154,150,147,144,139,138,134,132,127,116,115,110,110,110,108,106,106,104,102,101,101
-
+1097,889,775,698,667,649,575,535,496,431,416,405,373,367,362,361,318,303,295,293,273,266,265,263,243,216,211,199,193,192,168,165,157,155,150,149,148,147,137,132,122,121,117,116,115,114,113,113,111,107,105,103,101,100
 
 
 
