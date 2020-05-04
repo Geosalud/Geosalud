@@ -17,8 +17,7 @@ Highcharts.chart('sintomas', {
     xAxis: {
         categories: [
 
-'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Benito Juarez','Centro','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Alvaro Obregon','Puebla','Merida','Cuauhtemoc','Iztacalco','Coyoacan','Miguel Hidalgo','Xochimilco','Venustiano Carranza','Juarez','Naucalpan de Juarez','Azcapotzalco','Veracruz','Benito Juarez','Tlalnepantla de Baz','Monclova','Aguascalientes','Los Cabos','Tlahuac','Chimalhuacan','Cuernavaca','La Magdalena Contreras','Chalco','Acapulco de Juarez','Cuajimalpa de Morelos','Lazaro Cardenas','Solidaridad','Milpa Alta','Ahome','Atizapan de Zaragoza','Ixtapaluca','Cuautitlan Izcalli','La Paz','Toluca','Chihuahua','Victoria','Tecamac','Monterrey','Queretaro','Guadalajara','Tultitlan','Nicolas Romero','Valle de Chalco Solidaridad','Huixquilucan'
-
+'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Alvaro Obregon','Puebla','Cuauhtemoc','Merida','Iztacalco','Coyoacan','Miguel Hidalgo','Xochimilco','Juarez','Venustiano Carranza','Naucalpan de Juarez','Azcapotzalco','Veracruz','Benito Juarez','Tlalnepantla de Baz','Tlahuac','Aguascalientes','Monclova','Chimalhuacan','Los Cabos','Milpa Alta','Chalco','Cuernavaca','Acapulco de Juarez','La Magdalena Contreras','Cuajimalpa de Morelos','Lazaro Cardenas','Solidaridad','Chihuahua','Ahome','Atizapan de Zaragoza','Ixtapaluca','Cuautitlan Izcalli','La Paz','Toluca','Tecamac','Tultitlan','Victoria','Monterrey','Guadalajara','Queretaro','Valle de Chalco Solidaridad','Nicolas Romero','Huixquilucan','Leon'
 
         ]
     },
@@ -39,8 +38,7 @@ Highcharts.chart('sintomas', {
      
         data: [
 
-1097,889,775,698,667,649,575,535,496,431,416,405,373,367,362,361,318,303,295,293,273,266,265,263,243,216,211,199,193,192,168,165,157,155,150,149,148,147,137,132,122,121,117,116,115,114,113,113,111,107,105,103,101,100
-
+1183,930,817,722,711,688,597,552,521,483,441,427,389,388,383,380,339,326,324,320,290,279,278,277,249,229,217,217,208,201,176,176,174,172,169,157,148,148,140,140,138,136,129,124,124,121,119,117,116,115,114,111,110,103,102
 
 
         ]
