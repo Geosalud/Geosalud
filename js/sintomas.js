@@ -16,8 +16,7 @@ Highcharts.chart('sintomas', {
 
     xAxis: {
         categories: [
-
-'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Alvaro Obregon','Puebla','Cuauhtemoc','Merida','Iztacalco','Coyoacan','Miguel Hidalgo','Xochimilco','Juarez','Venustiano Carranza','Naucalpan de Juarez','Azcapotzalco','Veracruz','Benito Juarez','Tlalnepantla de Baz','Tlahuac','Aguascalientes','Monclova','Chimalhuacan','Los Cabos','Milpa Alta','Chalco','Cuernavaca','Acapulco de Juarez','La Magdalena Contreras','Cuajimalpa de Morelos','Lazaro Cardenas','Solidaridad','Chihuahua','Ahome','Atizapan de Zaragoza','Ixtapaluca','Cuautitlan Izcalli','La Paz','Toluca','Tecamac','Tultitlan','Victoria','Monterrey','Guadalajara','Queretaro','Valle de Chalco Solidaridad','Nicolas Romero','Huixquilucan','Leon'
+'Iztapalapa','Tijuana','Gustavo A. Madero','Culiacan','Centro','Benito Juarez','Mexicali','Tlalpan','Nezahualcoyotl','Ecatepec de Morelos','Alvaro Obregon','Puebla','Coyoacan','Cuauhtemoc','Iztacalco','Merida','Miguel Hidalgo','Xochimilco','Juarez','Venustiano Carranza','Veracruz','Naucalpan de Juarez','Azcapotzalco','Benito Juarez','Tlalnepantla de Baz','Tlahuac','Chimalhuacan','Aguascalientes','Monclova','Los Cabos','Cuernavaca','Chalco','Milpa Alta','Acapulco de Juarez','La Magdalena Contreras','Cuajimalpa de Morelos','Lazaro Cardenas','Solidaridad','Atizapan de Zaragoza','Ixtapaluca','Ahome','Chihuahua','Cuautitlan Izcalli','Toluca','Tultitlan','Tecamac','La Paz','Nicolas Romero','Guadalajara','Valle de Chalco Solidaridad','Monterrey','Queretaro','Victoria','Huixquilucan','Leon','Mazatlan','Coatzacoalcos','San Luis Rio Colorado'
 
         ]
     },
@@ -38,7 +37,7 @@ Highcharts.chart('sintomas', {
      
         data: [
 
-1183,930,817,722,711,688,597,552,521,483,441,427,389,388,383,380,339,326,324,320,290,279,278,277,249,229,217,217,208,201,176,176,174,172,169,157,148,148,140,140,138,136,129,124,124,121,119,117,116,115,114,111,110,103,102
+1262,980,847,750,734,695,673,579,561,535,456,447,411,411,409,397,355,346,340,334,320,309,297,295,265,253,234,233,222,203,200,188,187,183,179,164,154,150,145,144,143,142,137,133,131,129,127,124,122,120,119,119,119,104,103,103,103,101
 
 
         ]
