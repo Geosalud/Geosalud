@@ -1,8 +1,10 @@
 Highcharts.chart('sintomas', {
 
     title: {
-        text: ' '
+        text: '.',
+        align: 'right'
     },
+
     accessibility: {
         point: {
             valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
