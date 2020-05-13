@@ -1480,7 +1480,7 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 135px 0 0px 0;
+  padding: 27px 0 0px 0;
 }
 
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
@@ -7343,4 +7343,30 @@ border: 2px;
 background:#f2efe991;
 color: #919191;
 text-align: center;
+}
+
+
+
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
+    background: #fff;
+}
+
+
+@keyframes autoplay{
+    33%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+    
+    66%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+    
+    100%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
 }
