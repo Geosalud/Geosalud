@@ -13,31 +13,29 @@ Highcharts.chart('sintomas', {
     series: [{
         keys: ['from', 'to', 'weight'],
         data: [
-['CDMX', 'Iztapalapa', 1963],
-['CDMX', 'Gustavo A. Madero', 1296],
-['Baja California', 'Tijuana', 1265],
-['Tabasco', 'Centro', 1072],
-['Baja California', 'Mexicali', 937],
-['Sinaloa', 'Culiacán', 932],
-['Quintana Roo', 'Benito Juárez', 836],
-['Edo. Mex', 'Nezahualcoyotl', 828],
-['CDMX', 'Tlalpan', 807],
-['Edo. Mex', 'Ecatepec', 796],
-['CDMX', 'Álvaro Obregón', 655],
-['CDMX', 'Cuauhtemoc', 605],
-['CDMX', 'Coyoacán', 604],
-['CDMX', 'Iztacalco', 594],
-['Puebla.', 'Puebla', 584],
-['Yucatán', 'Mérida', 513],
-['CDMX', 'Xochimilco', 510],
-['Veracruz.', 'Veracruz', 507],
-['Edo. Mex', 'Naucalpan', 500],
-['CDMX', 'Miguel Hidalgo', 494],
-['CDMX', 'Venustiano Carranza', 480]
 
 
-
-
+['CDMX', 'Iztapalapa', 2093],
+['CDMX', 'Gustavo A. Madero', 1351],
+['Baja California', 'Tijuana', 1318],
+['Tabasco', 'Centro', 1139],
+['Baja California', 'Mexicali', 1005],
+['Sinaloa', 'Culiacán', 954],
+['Edo. Mex', 'Nezahualcoyotl', 885],
+['CDMX', 'Tlalpan', 864],
+['Quintana Roo', 'Benito Juárez', 854],
+['Edo. Mex', 'Ecatepec', 845],
+['CDMX', 'Alvaro Obregón', 684],
+['CDMX', 'Coyoacán', 650],
+['CDMX', 'Cuauhtemoc', 629],
+['CDMX', 'Iztacalco', 626],
+['Puebla.', 'Puebla', 614],
+['Veracruz.', 'Veracruz', 566],
+['CDMX', 'Xochimilco', 547],
+['Yucatán', 'Mérida', 529],
+['Edo. Mex', 'Naucalpan', 525],
+['CDMX', 'Venustiano Carranza', 514],
+['CDMX', 'Miguel Hidalgo', 509]
 
 
         ],
