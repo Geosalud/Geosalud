@@ -29,7 +29,7 @@ Highcharts.chart('sintomas', {
 ['CDMX', 'Xochimilco', 1371],
 ['CDMX', 'Iztacalco', 1344],
 ['CDMX', 'Cuauhtemoc', 1338],
-['Veracruz', 'Veracruz', 1323],
+['Veracruz.', 'Veracruz', 1323],
 ['Quintana Roo', 'Benito Juárez', 1287],
 ['CDMX', 'Venustiano Carranza', 1211],
 ['CDMX', 'Tlahuac', 1170],
