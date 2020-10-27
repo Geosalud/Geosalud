@@ -29,12 +29,13 @@ Highcharts.chart('sintomas', {
 ['Baja California', 'Mexicali', 10560],
 ['CDMX', 'Coyoacán', 10560],
 ['Guerrero', 'Acapulco', 9736],
-['Querétaro.', 'Queretaro', 9328],
+['Querétaro.', 'Querétaro', 9328],
 ['Edo. Mex', 'Nezahualcoyotl', 9074],
 ['Chihuahua', 'Juárez', 8929],
 ['CDMX', 'Azcapotzalco', 8809],
 ['CDMX', 'Xochimilco', 8772],
 ['CDMX', 'Venustiano Carranza', 8732]
+
 
 
 
