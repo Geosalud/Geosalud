@@ -15,28 +15,29 @@ Highcharts.chart('sintomas', {
         data: [
 
 
-['CDMX', 'Iztapalapa', 49523],
-['CDMX', 'Gustavo A. Madero', 40617],
-['CDMX', 'Álvaro Obregón', 38163],
-['Puebla.', 'Puebla', 31361],
-['CDMX', 'Tlalpan', 31324],
-['Guanajuato', 'León', 28726],
-['Nuevo León', 'Monterrey', 26504],
-['Sonora', 'Hermosillo', 25153],
-['Querétaro.', 'Querétaro', 24954],
-['San Luis Potosí.', 'San Luis Potosí', 23619],
-['Tabasco', 'Centro', 23110],
-['CDMX', 'Coyoacán', 21551],
-['CDMX', 'Xochimilco', 19564],
-['Edo. Mex', 'Ecatepec', 19462],
-['Chihuahua', 'Juárez', 19353],
-['CDMX', 'Cuauhtemoc', 19193],
-['CDMX', 'Tlahuac', 18850],
-['Jalisco', 'Guadalajara', 18795],
-['CDMX', 'Venustiano Carranza', 17996],
-['CDMX', 'Azcapotzalco', 17796],
-['Yucatán', 'Mérida', 16537],
-['Edo. Mex', 'Nezahualcoyotl', 16093]
+['CDMX', 'Iztapalapa', 52224],
+['CDMX', 'Gustavo A. Madero', 42427],
+['CDMX', 'Álvaro Obregón', 40442],
+['CDMX', 'Tlalpan', 32913],
+['Puebla.', 'Puebla', 32109],
+['Guanajuato', 'León', 29641],
+['Nuevo León', 'Monterrey', 27154],
+['Querétaro.', 'Querétaro', 25771],
+['Sonora', 'Hermosillo', 25728],
+['San Luis Potosí.', 'San Luis Potosí', 24254],
+['Tabasco', 'Centro', 23641],
+['CDMX', 'Coyoacán', 22545],
+['CDMX', 'Xochimilco', 20380],
+['Edo. Mex', 'Ecatepec', 20118],
+['CDMX', 'Cuauhtemoc', 20022],
+['CDMX', 'Tlahuac', 19893],
+['Chihuahua', 'Juárez', 19587],
+['Jalisco', 'Guadalajara', 19351],
+['CDMX', 'Venustiano Carranza', 18772],
+['CDMX', 'Azcapotzalco', 18510],
+['Yucatán', 'Mérida', 16793],
+['Edo. Mex', 'Nezahualcoyotl', 16595]
+
 
 
 
