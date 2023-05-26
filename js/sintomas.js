@@ -1,7 +1,7 @@
 Highcharts.chart('sintomas', {
 
     title: {
-        text: '_',
+        text: ' ',
         align: 'right'
     },
 
