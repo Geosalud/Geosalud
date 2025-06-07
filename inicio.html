@@ -32,6 +32,46 @@
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 <style>
+
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+
+
+
+
+
+
+
 .visor-responsive {
 position: relative;
 padding-bottom: 50%; /* 16/9 ratio */
@@ -124,7 +164,7 @@ height: 100%;
                         <p style="text-align: justify;">El propósito de este trabajo es describir las características 
                             de los estilos de vida y salud en la población de México. Recopilando información 
                         a través de un cuestionario en línea, donde la participación ciudadana juega un papel importante, súmete, 
-                        participa y <b>queremos escucharte en el siguiente cuestionario:</b></p>  
+                        participa y <b class="parpadea text">queremos escucharte en el siguiente cuestionario:</b></p>  
                         <a href="https://arcg.is/19n5Tn1" class="boxed-btn3"target="_blank">¡Particiapa en la encuesta!</a>                           
                     </div>
                 </div>
